@@ -1,4 +1,52 @@
-// Override and add customized styles in this file.
+// Custom styles
+// 1. General
 //
-// You can also create SCSS files in the app/assets/stylesheets/custom/
-// folder and they will be loaded automatically.
+
+// 1. General
+// --------------------
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  src: font-url("Roboto-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 300;
+  src: font-url("Roboto-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  src: font-url("Roboto-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: bold;
+  src: font-url("Roboto-BoldItalic.ttf") format("truetype");
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+a {
+  font-family: "Roboto", sans-serif !important;
+}
+
+.top-bar-title {
+  background: #fff;
+
+  &::before {
+    content: none;
+  }
+}
