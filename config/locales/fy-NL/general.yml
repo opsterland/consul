@@ -27,7 +27,7 @@ fy-NL:
       step_2:
         title: "Doch mei"
         description: "Kom mei ideeën, stim of gean yn diskusje."
-        link: "Besjoch wat der op Stim fan Fryslân bart"
+        link: "Besjoch wat der yn de gemeente bart"
       step_3:
         title: "Diel"
         description: "Bliuw belutsen by saken dy’t jo wichtich fine en diel se mooglik fia de social media."
@@ -44,7 +44,7 @@ fy-NL:
       see_process: "Sjoch proses"
       see_budget: "Besjoch ideeën"
       description:
-        budgets: "Ynwenners fan Fryslân kinne hjir komme mei ideeën oer in ûnderwerp dat op it stuit aktueel is. Troch te stimmen op de bêste helbere ideeën, kieze Friezen sa sels hokker ideeën mei finansjele stipe fan provinsje troch de yntsjinners útfierd wurde kinne."
+        budgets: "Ynwenners fan Opsterlân kinne hjir komme mei ideeën oer in ûnderwerp dat op it stuit aktueel is. Troch te stimmen op de bêste helbere ideeën, kieze Friezen sa sels hokker ideeën mei finansjele stipe fan provinsje troch de yntsjinners útfierd wurde kinne."
       no_items:
         debates: "Op it stuit binne der noch gjin diskusjes"
     cards:
@@ -199,7 +199,7 @@ fy-NL:
         authenticate: "Jo moatte %{signin} of %{signup} om fierder te gean."
         submit_button: "Stjoer priveeberjocht"
   form:
-    accept_terms: "Ik begryp dat ik in idee foar provinsje Fryslân yntsjinje."
+    accept_terms: "Ik begryp dat ik in idee foar gemeente Opsterlân yntsjinje."
     accept_terms_title: "Ik gean akkoart mei it privacybelied en de spulregels."
     conditions: "Spulregels"
     debate: "Diskusje"

@@ -79,7 +79,7 @@ fy-NL:
       new:
         recommendations_title: "Beskriuw:"
         recommendation_one: "Jou in koarte beskriuwing fan it idee hoe jo tinke de Fryske taal yn jo omjouwing takomst te jaan."
-        recommendation_two: "Hoe goed slút jo idee oan op wat de provinsje Fryslân graach foar de Fryske taal berikke wol? De provinsje wol graach in mear sichtber en fanselssprekkend plak foar it Frysk yn Fryslân. It Frysk as ien fan dé Europeeske talen."
+        recommendation_two: "Hoe goed slút jo idee oan op wat de gemeente Opsterlân graach foar de Fryske taal berikke wol? De gemeente wol graach in mear sichtber en fanselssprekkend plak foar it Frysk yn Opsterlân. It Frysk as ien fan dé Europeeske talen."
         recommendation_three: "Foar hokker bedrach tusken de 100 en 15.000 euro is jo idee te realisearjen? Wa moat hjir wat foar dwaan?"
         recommendation_four: "Hoe grut is it effekt fan it útfieren fan jo idee? Foar jo wyk, jo doarp, stêd of de hiele provinsje?"
       form:
@@ -145,7 +145,7 @@ fy-NL:
           winners: "Winnende"
         read_more: "Besjoch idee"
       share:
-        message: "Dat is in goed idee foar de Provinsje Fryslân."
+        message: "Dat is in goed idee foar de gemeente Opsterlân."
       show:
         author_deleted: "Brûker fuort helje"
         price_explanation: "Taljochting kosten."
