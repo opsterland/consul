@@ -14,7 +14,7 @@ fy-NL:
     mailer:
       confirmation_instructions:
         confirm_link: "Befêstigje myn oanmelding"
-        text: "Tige tank foar it oanmelden op it partisipaasjeplatfoarm Stim fan Fryslân. Befêstigje hjirûnder jo e-mail adres en lit jo stim hearre."
+        text: "Tige tank foar it oanmelden op it partisipaasjeplatfoarm Stim fan Opsterlân. Befêstigje hjirûnder jo e-mail adres en lit jo stim hearre."
         title: "Wolkom"
         welcome: "Wolkom"
       reset_password_instructions:
@@ -115,8 +115,8 @@ fy-NL:
           password_confirmation_label: "Befêstigje wachtwurd"
           password_note: "Dizze moat út minimaal 8 tekens bestean"
           submit: "Oanmelde"
-          terms: "Ik bin in ynwenner fan de provinsje Fryslân of in \"Fries om utens\" en ik akseptearje de %{terms}."
-          terms_title: "Ik bin in ynwenner fan de provinsje Fryslân of in \"Fries om utens\" en ik akseptearje de %{terms}."
+          terms: "Ik bin in ynwenner fan de gemeente Opsterlân en ik akseptearje de %{terms}."
+          terms_title: "Ik bin in ynwenner fan de gemeente Opsterlân en ik akseptearje de %{terms}."
           terms_link: "spulregels"
           title: "Oanmelde"
           username_is_available: "Brûkersnamme is beskikber"
@@ -127,5 +127,5 @@ fy-NL:
           back_to_index: "Begrepen; werom nei haadside"
           title: "Ferifiearje jo e-mailadres"
           instructions_1: "Besjoch jo mailboks – wy hawwe in mail stjoerd mei in link om jo e-mailadres te ferifiearjen."
-          instructions_2: "As jo dit ferifiearre hawwe, kinne jo meidwaan op it partisipaasjeplatfoarm Stim fan Fryslân"
+          instructions_2: "As jo dit ferifiearre hawwe, kinne jo meidwaan op it partisipaasjeplatfoarm Stim fan Opsterlân"
           thank_you: "Betanke foar it ynfoljen fan jo gegevens. Om jo oanmelding folslein te meitsjen moatte jo jo e-mailadres ferifiearje."

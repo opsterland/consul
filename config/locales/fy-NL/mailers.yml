@@ -40,7 +40,7 @@ fy-NL:
       title_html: "Jo hawwe it neikommende priveeberjocht stjoerd nei <strong>%{receiver}</strong>:"
     user_invite:
       ignore: "Hawwe jo dizze útnûging sûnder te freegjen krigen? Gjin soargen, dan kinne jo dizze mail negearje."
-      text: "Jo kinne jo ynskriuwe foar Stim fan Fryslân! Klik dêrfoar op de neikommende link:"
+      text: "Jo kinne jo ynskriuwe foar Stim fan Opsterlân! Klik dêrfoar op de neikommende link:"
       thanks: "Betanke"
       title: "Wolkom op de %{org}"
       button: "Skriuw dy yn"
@@ -48,7 +48,7 @@ fy-NL:
     budget_investment_created:
       subject: "Betanke foar it dielen fan jo idee!"
       title: "Betanke foar it dielen fan jo idee!"
-      follow_link: "Stim Fan Fryslân"
+      follow_link: "Stim Fan Opsterlân"
       sincerely: "Mei freonlike groetnis,"
       intro: "Bêste <strong>%{author}</strong>"
       text: "Betanke foar it dielen fan jo idee <strong>%{investment}</strong> foar <strong>%{budget}</strong>"
@@ -57,7 +57,7 @@ fy-NL:
     budget_investment_unfeasible:
       hi: "Bêste dielnimmer,"
       new_href: "Dat kin hjir"
-      sincerely: "Groetnis fan Stim fan Fryslân"
+      sincerely: "Groetnis fan Stim fan Opsterlân"
       sorry: "Hawwe jo noch fragen, mail dan nei stimfan@fryslan.frl"
       subject: "Spitich, jo idee is net te dwaan"
       new: "De provinsje hat nei jo idee sjoen. Spitigernôch docht bliken dat jo idee net mooglik is. Wy lizze ek út wêrom: %{url}"
@@ -68,10 +68,10 @@ fy-NL:
       share: "De provinsje hat alle yntsjinne ideeën besjoen en sjoen hoefolle at it likernôch kostje sil. Lokwinske, jo idee is mooglik! Jo kinne no begjinne mei jo lytse kampanje. Diel jo idee op social media en mei jo buorlju. In soad sukses!"
       share_button: "Diel jo idee"
       thanks: "Betanke foar it meidwaan. Hawwe jo noch fragen, mail dan nei stimfan@fryslan.frl"
-      sincerely: "Groetnis fan Stim fan Fryslân"
+      sincerely: "Groetnis fan Stim fan Opsterlân"
       title: "Lokwinske, jo idee giet troch nei de stimomloop!"
     budget_investment_unselected:
       subject: "Spitigernôch hat jo idee it net helle"
       hi: "Bêste dielnimmer,"
       thanks: "Spitigernôch hat jo idee net genôch stipe krige om troch te gean. Tige betanke foar it dielen fan jo idee."
-      sincerely: "Groetnis fan Stim fan Fryslân"
+      sincerely: "Groetnis fan Stim fan Opsterlân"
