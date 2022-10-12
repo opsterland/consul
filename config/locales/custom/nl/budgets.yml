@@ -70,8 +70,9 @@ nl:
         next: "Steun de ideeën die jij graag uitgevoerd wil zien."
         remember: "Je mag zoveel verschillende ideeën steunen als je wilt."
         different: "Maar... je kunt ieder idee slechts één keer steunen. En je steun is definitief."
-        supported: "Tot nu toe heb je <strong>%{count} ideeën</strong> gesteund."
-        supported_one: "Tot nu toe heb je <strong>1 idee</strong> gesteund."
+        supported:
+          one: "Tot nu toe heb je <strong>1 idee</strong> favoriet gemaakt."
+          other: "Tot nu toe heb je <strong>%{count} ideeën</strong> favoriet gemaakt."
         supported_not_logged_in: "Log in om <strong>projecten te steunen</strong>."
         time: "Je kunt nog tot %{phase_end_date} ideeën steunen."
         share: "Je kunt ideeën die je hebt gesteund delen op social media. Zo krijgen de ideeën meer aandacht én wellicht meer steun!"
@@ -167,9 +168,9 @@ nl:
         give_support: "Steun"
         remove_support: "Steun verwijderen"
         supports:
-          zero: "nog geen steun"
-          one: "1 steunbetuiging"
-          other: "%{count} steunbetuigingen"
+          zero: "nog geen favoriet gemaakt"
+          one: "1x favoriet"
+          other: "%{count}x favoriet"
         already_added: "Je hebt dit idee al toegevoegd"
         already_supported: "Je hebt dit idee al gesteund. Deel het!"
         confirm_group:
@@ -183,6 +184,12 @@ nl:
         different_heading_assigned: "Je hebt al gestemd in een andere groep: %{heading_link}"
       share:
         message: "Dit is een goed idee voor de Oosterparkwijk! Vanaf 18 november kan je stemmen op dit idee"
+      new:
+        recommendations_title: "Beschrijf je idee:"
+        recommendation_one: "Waarom is het een goed idee?"
+        recommendation_two: "Voor wie is het idee bedoeld?"
+        recommendation_three: "Wat is er nodig en hoeveel geld is er nodig voor de uitvoering?"
+        recommendation_four: "Wat wil of kun je zelf doen voor de uitvoering?"
     show:
       see_all_investments: "Bekijk alle ideeën"
       investments_list: "Ideeën"
