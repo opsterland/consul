@@ -81,6 +81,14 @@ a {
   }
 }
 
+.top-bar {
+
+  @include breakpoint(small only) {
+    flex-direction: row-reverse;
+    padding: 0 $line-height / 4;
+  }
+}
+
 .footer {
   background: $brand;
 }
