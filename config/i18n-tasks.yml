@@ -135,6 +135,7 @@ ignore_missing:
   - "budgets.investments.new.recommendation_two"
   - "budgets.investments.new.recommendation_three"
   - "budgets.investments.new.recommendation_four"
+  - "budgets.index.section_footer.description_link"
 
 ## Consider these keys used:
 ignore_unused:
