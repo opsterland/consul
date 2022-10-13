@@ -244,6 +244,11 @@ ignore_unused:
   - "tags.list.filter.more.*"
   - "budgets.index.section_header.help"
   - "budgets.ballots.show.voted_info"
+  - "layouts.footer.description"
+  - "layouts.footer.open_source"
+  - "layouts.footer.open_source_url"
+  - "layouts.footer.consul"
+  - "layouts.footer.consul_url"
 ####
 ## Exclude these keys from the `i18n-tasks eq-base" report:
 # ignore_eq_base:
