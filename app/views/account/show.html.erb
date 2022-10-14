@@ -89,30 +89,32 @@
         </div>
 
         <div class="user-permissions small-12 medium-5 column">
-          <h2><%= t("account.show.user_permission_title") %></h2>
+          <% unless Setting["feature.user.skip_verification"].present? %>
+            <h2><%= t("account.show.user_permission_title") %></h2>
 
-          <p><%= t("account.show.user_permission_info") %></p>
+            <p><%= t("account.show.user_permission_info") %></p>
 
-          <ul>
-            <li><span class="icon-check"></span>&nbsp;<%= t("verification.user_permission_debates") %></li>
-            <li><span class="icon-check"></span>&nbsp;<%= t("verification.user_permission_proposal") %></li>
-            <li>
-              <% if current_user.level_two_or_three_verified? %>
-                <span class="icon-check"></span>
-              <% else %>
-                <span class="icon-x"></span>
-              <% end %>
-              <%= t("verification.user_permission_support_proposal") %>
-            </li>
-            <li>
-              <% if current_user.level_three_verified? %>
-                <span class="icon-check"></span>
-              <% else %>
-                <span class="icon-x"></span>
-              <% end %>
-              <%= t("verification.user_permission_votes") %>
-            </li>
-          </ul>
+            <ul>
+              <li><span class="icon-check"></span>&nbsp;<%= t("verification.user_permission_debates") %></li>
+              <li><span class="icon-check"></span>&nbsp;<%= t("verification.user_permission_proposal") %></li>
+              <li>
+                <% if current_user.level_two_or_three_verified? %>
+                  <span class="icon-check"></span>
+                <% else %>
+                  <span class="icon-x"></span>
+                <% end %>
+                <%= t("verification.user_permission_support_proposal") %>
+              </li>
+              <li>
+                <% if current_user.level_three_verified? %>
+                  <span class="icon-check"></span>
+                <% else %>
+                  <span class="icon-x"></span>
+                <% end %>
+                <%= t("verification.user_permission_votes") %>
+              </li>
+            </ul>
+          <% end %>
 
           <% unless Setting["feature.user.skip_verification"].present? %>
             <p>

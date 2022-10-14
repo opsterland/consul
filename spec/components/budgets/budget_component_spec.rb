@@ -16,7 +16,7 @@ describe Budgets::BudgetComponent do
       page.find(".budget-header") do |header|
         expect(header).to have_content "Participatory budgets"
         expect(header).to have_content budget.name
-        expect(header).to have_link "Help with participatory budgets"
+        expect(header).not_to have_link "Help with participatory budgets"
       end
     end
 

@@ -1,5 +1,8 @@
 nl:
   devise_views:
+    mailer:
+      confirmation_instructions:
+        text: "U kunt uw account bevestigen door op de volgende link te klikken:"
     menu:
       login_items:
         login: "Inloggen"

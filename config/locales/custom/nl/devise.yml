@@ -2,7 +2,7 @@ nl:
   devise:
     mailer:
       confirmation_instructions:
-        subject: "Bevestig je email"
+        subject: "Bevestig uw account"
       reset_password_instructions:
         subject: "Wachtwoord opnieuw instellen"
       unlock_instructions:
