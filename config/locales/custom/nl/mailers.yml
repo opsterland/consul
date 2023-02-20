@@ -28,9 +28,9 @@ nl:
       email: "noreply@consul.dev"
       sincerely: "Groeten van de Coöperatieve Wijkraad"
     budget_investment_unselected:
-      subject: "Helaas heeft je idee het niet gehaald"
+      subject: "Bedankt voor uw ingediende idee!"
       hi: "Beste deelnemer,"
-      thanks: "Helaas heeft je idee niet genoeg stemmen gekregen om door te gaan. Heel erg bedankt voor het delen van je idee."
+      thanks: "De afgelopen weken hebben er gesprekken plaats gevonden met diverse initiatiefnemers. In eerste instantie met de top 10. Door deze gesprekken bleken sommige ideeën niet haalbaar en/of hebben initiatiefnemers zelf besloten hun idee weer in te trekken. Hierdoor hebben we ideeën die net buiten de top 10 vielen betrokken. Inmiddels is de lijst met ideeën bekend die doorgaan naar de stemronde.<br><br>Helaas zit uw idee hier niet bij en zal uw idee niet doorgaan naar de stemfase.<br><br>We vinden het als gemeente wel heel waardevol dat uw idee door meerdere mensen als favoriet is aangegeven. Daarom zullen we dit zeker meenemen als input in de toekomst. Wellicht dat we daar op een later moment nog bij u op terug komen.<br><br>Nogmaals hartelijk dank voor uw deelname!"
       sincerely: "Groeten van de Coöperatieve Wijkraad"
     comment:
       subject: "Iemand heeft gereageerd op je idee %{commentable}"
