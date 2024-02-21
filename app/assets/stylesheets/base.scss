@@ -486,6 +486,11 @@ aside {
   }
 }
 
+.ssb-twitter,
+.ssb-facebook {
+  color: #fff !important;
+}
+
 // 1. Header
 // --------------------
 header,
@@ -648,10 +653,10 @@ body > header,
 .subnavigation a {
   color: $text;
   font-size: 16px;
-  line-height: $line-height * 2;
   position: relative;
 
   @include breakpoint(medium) {
+    line-height: $line-height * 2;
 
     &.is-active {
       border-bottom: 0;
@@ -722,6 +727,10 @@ body > header,
         }
       }
 
+      > a::after {
+        border: 0;
+      }
+
       > a::before {
         border: inset 6px;
         border-bottom-width: 0;
@@ -779,14 +788,6 @@ body > header,
       padding: 0 $line-height / 2;
       width: 100%;
     }
-  }
-}
-
-.dropdown.menu > li {
-
-  &.is-dropdown-submenu-parent > a::after {
-    border-top-color: transparent;
-    margin-top: -8px;
   }
 }
 
@@ -2055,6 +2056,10 @@ a {
     border-bottom: 0;
     padding-bottom: 0;
   }
+
+  .comments-box-container {
+    z-index: 1;
+  }
 }
 
 .comments-box-container .comment-meta .comment-votes {
@@ -2133,6 +2138,10 @@ a {
 
   .calc-comments .comment-box {
     overflow: auto;
+  }
+
+  details:not([open]) .draft-panel .panel-title {
+    margin-top: rem-calc(120);
   }
 }
 
@@ -2237,9 +2246,13 @@ a {
 .comment-votes {
 
   .votes {
-    bottom: 6px;
+    bottom: 24px;
     position: absolute;
     right: 0;
+
+    @include breakpoint(medium) {
+      bottom: 6px;
+    }
 
     .like {
 
@@ -2325,10 +2338,6 @@ a {
   tr td {
     vertical-align: top;
   }
-}
-
-.admin .dropdown.menu > .is-dropdown-submenu-parent > a::after {
-  border-color: transparent;
 }
 
 .admin .menu.simple {
@@ -2999,6 +3008,28 @@ a {
 
     img {
       padding-top: rem-calc(100);
+    }
+
+    .button-facebook:hover {
+      background: #3b5998;
+    }
+
+    .button-google:hover {
+      background: #de4c34;
+    }
+
+    .button-twitter:hover {
+      background: #45b0e3;
+    }
+
+    .button-facebook:hover,
+    .button-google:hover,
+    .button-twitter:hover {
+      color: #fff;
+
+      &::before {
+        color: #fff;
+      }
     }
   }
 
